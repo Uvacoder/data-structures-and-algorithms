@@ -18,7 +18,7 @@ class Solution:
             
         return s[start : end+1]
           
-          
+    # This function helps traverse the string      
     def expandAroundCenter(self, s: 'list', left: 'int', right: 'int') -> 'int':
       while left >= 0 and right < len(s) and s[left] == s[right]:
         left -= 1
