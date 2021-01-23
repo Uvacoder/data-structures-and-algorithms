@@ -1,3 +1,5 @@
+# you can find this same problem in my 'stack' directory
+
 class Solution:
     def isValid(self, s: str) -> bool:
         
