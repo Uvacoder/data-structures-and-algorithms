@@ -24,3 +24,15 @@ class Solution:
         elif numOfZeros != 0: 
             for w in range(1, numOfZeros + 1):
                 nums[-w] = 0
+
+########################################################################            
+        # Much cleaner version of the two pointer appraoch
+        # Slow pointer = i
+        # Faster pointer is the for loop.  Does the job of processing new elements
+        i = 0
+        for x in nums:
+            if x != 0:
+                nums[i] = x
+                i += 1
+        for w in range(i, len(nums)):
+            nums[w] = 0
