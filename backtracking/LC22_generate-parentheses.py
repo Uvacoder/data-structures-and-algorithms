@@ -1,9 +1,9 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         # Checks for 3 required agendas
-        # only add right if right < left 
-        # if right == left == n, return
-        # if left < n, add parentheses
+            # only add right if right < left 
+            # if right == left == n, return
+            # if left < n, add parentheses
         
         # back tracking approach
         stack = []
