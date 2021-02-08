@@ -13,8 +13,9 @@ class Solution:
             stack = self.permute(nums)
             
             for perm in stack:
-                perm.append(n)
-            result.extend(stack)
-            nums.append(n)
+                perm.append(n)      # we want to append the first value we just removed (line 12) back into our stack
+            result.extend(stack)    # add them to our result 
+            nums.append(n)          # append the value we removed (line 12) back into nums
             
         return result
+            
