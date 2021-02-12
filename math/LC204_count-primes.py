@@ -7,6 +7,7 @@ class Solution:
             return 0
         
         # Sieve of eratosthenes algorithm:
+        # source: https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html
         
         # create an array of 'n' numbers of True
             # True meaning that, that index is a prime number
