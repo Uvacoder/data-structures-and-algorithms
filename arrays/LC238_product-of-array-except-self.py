@@ -20,7 +20,6 @@ class Solution:
         return output
             
         # # my way: brute force!
-        
         # left = 0
         # right = len(nums) - 1
         # current = 0
