@@ -4,8 +4,6 @@ class Solution:
         # with 'k' being the amount of integers you can add
         sum = 0
         
-        
-        # get the sum of elements from index 'x' to index 'x + k' and we put the result in 'sum'
         for x in range(k):
             sum = sum + nums[x]
             
